@@ -2,10 +2,9 @@
 
 [Cf. Wikipedia](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 
-## Getting started
+Write a function that computes an expression provided according to the reverse polish notation, e.g.:
 
-Starter project for kata (Node, TypeScript, Jest)
-
-- **Fork**, then clone the repository
-- Install dependencies
-- Start developing (`npm test`)
+```typescript
+// 1 10 100 + - = 1 110 - = -109
+rpn(1, 10, 100, "+", "-") // -109
+```
